@@ -32,7 +32,7 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
+        /*{
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -47,32 +47,32 @@ const CONFIG = {
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
-        },
+        },*/
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Masih Akbari', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'masih-akbari-dev',
+    //x: 'arif_szn',
+    //mastodon: 'arifszn@mastodon.social',
+    //researchGate: '',
+    //facebook: '',
+    //instagram: '',
+    //reddit: '',
+    //threads: '',
+    //youtube: '', // example: 'pewdiepie'
+    //udemy: '',
+    //dribbble: '',
+    //behance: '',
+    //medium: 'arifszn',
+    //dev: 'arifszn',
+    stackoverflow: '2514250/dev-masih', // example: '1/jeff-atwood'
+    //discord: '',
+    //telegram: '',
+    //website: 'https://www.arifszn.com',
+    //phone: '',
+    email: 'akbari.masih@gmail.com',
   },
   resume: {
     fileUrl:
