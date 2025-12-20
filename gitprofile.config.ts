@@ -29,10 +29,10 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'Experience',
+      header: 'External Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
+        /*{
           title: 'Filmnet.ir',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -47,7 +47,7 @@ const CONFIG = {
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
-        },
+        },*/
       ],
     },
   },
@@ -102,34 +102,34 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Filmnet.ir',
-      position: 'Software Development Team Lead',
-      from: 'Jun 2023',
-      to: 'Present',
-      companyLink: 'https://filmnet.ir',
+      company: 'EghtesadNovin Bank',
+      position: 'Senior Backend Developer & E-Payments',
+      from: '2020',
+      to: '2023',
+      companyLink: 'https://enbank.ir/',
     },
     {
-      company: 'Metapolitan',
-      position: 'Software Developer (Remote)',
-      from: 'Sep 2024',
-      to: 'Present',
-      companyLink: 'https://metapolitan.io',
+      company: 'Sima Co.',
+      position: 'Senior Backend Developer & Expert on Digital Signature',
+      from: '2018',
+      to: '2020',
+      companyLink: '',
     },
     {
-      company: 'DastyarTech',
-      position: 'Chief Technology Officer (Remote)',
-      from: 'May 2024',
-      to: 'Present',
-      companyLink: 'https://dastyartech.org',
+      company: 'Amnafzar Co.',
+      position: 'Junior Backend Developer & Trainee on Digital Signature',
+      from: '2015',
+      to: '2018',
+      companyLink: 'https://amnafzar.ir',
     },
   ],
   certifications: [
-    {
+    /*{
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com',
-    },
+    },*/
   ],
   educations: [
     {
@@ -146,7 +146,7 @@ const CONFIG = {
     },
   ],
   publications: [
-    {
+    /*{
       title: 'Publication Title',
       conferenceName: '',
       journalName: 'Journal Name',
@@ -163,7 +163,7 @@ const CONFIG = {
       link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
+    },*/
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
