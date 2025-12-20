@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import LazyImage from '../lazy-image';
 import { PiNewspaper } from 'react-icons/pi';
-import { getDevPost, getMediumPost } from '@arifszn/blog-js';
 import { formatDistance } from 'date-fns';
 import { SanitizedBlog } from '../../interfaces/sanitized-config';
 import { ga, skeleton } from '../../utils';
