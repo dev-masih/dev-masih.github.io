@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Masih Akbari', description: 'Software Development Team Lead @ Filmnet.ir', imageURL: '' },
+  seo: { title: 'Portfolio of Masih Akbari', description: 'Software Development Team Lead', imageURL: 'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/avatar-circle.png' },
   social: {
     linkedin: 'masih-akbari-dev',
     //x: 'arif_szn',
