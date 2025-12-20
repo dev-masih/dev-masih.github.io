@@ -11,7 +11,7 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/filmnet_logo.jpg",
     link: "https://filmnet.ir",
     datetime: "Jun 2023 - Present · On-site",
-    description: "Architected Filmnet’s VOD backend with C#/.NET microservices, hybrid VM/container infrastructure, and CI/CD pipelines. Optimized high‑traffic performance for millions of users using MSSQL, Elasticsearch, RabbitMQ, and multilevel caching with in‑memory and Redis clusters.",
+    description: "Architected Filmnet's VOD backend with C#/.NET microservices, hybrid VM/container infrastructure, and CI/CD pipelines. Optimized high-traffic performance for millions of users using MSSQL, Elasticsearch, RabbitMQ, and multilevel caching with in-memory and Redis clusters.",
     categories: [".NET", "ASP.NET Web API", "C#", "Microsoft SQL Server", "RabbitMQ", "Elasticsearch", "Git", "MongoDB", "Nginx", "Sentry", "GoLang"],
   },
   {
