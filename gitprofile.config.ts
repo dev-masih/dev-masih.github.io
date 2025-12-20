@@ -134,13 +134,13 @@ const CONFIG = {
   educations: [
     {
       institution: 'Kharazmi University',
-      degree: 'Master\'s degree',
+      degree: 'M.Sc. in Artificial Intelligence',
       from: '2014',
       to: '2017',
     },
     {
       institution: 'Kharazmi University',
-      degree: 'Bachelor\'s degree',
+      degree: 'B.Sc. in Software Engineering',
       from: '2011',
       to: '2014',
     },
