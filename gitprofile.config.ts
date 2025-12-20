@@ -76,7 +76,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/Masih-Akbari-Resume-20251220.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Technology Leadership',

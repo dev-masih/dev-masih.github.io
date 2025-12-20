@@ -15,7 +15,7 @@ const staticArticles: Article[] = [
     categories: [".NET", "ASP.NET Web API", "C#", "Microsoft SQL Server", "RabbitMQ", "Elasticsearch", "Git", "MongoDB", "Nginx", "Sentry", "GoLang"],
   },
   {
-    title: "Software Development @ Metapolitan - The Blockchain Capital",
+    title: "Senior Backend Developer @ Metapolitan - The Blockchain Capital",
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/metapolitan_logo.jpg",
     link: "https://metapolitan.io",
     datetime: "Sep 2024 - Present · Remote",
