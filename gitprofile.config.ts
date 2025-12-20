@@ -67,7 +67,7 @@ const CONFIG = {
     //behance: '',
     //medium: 'arifszn',
     //dev: 'arifszn',
-    stackoverflow: '2514250/dev-masih', // example: '1/jeff-atwood'
+    //stackoverflow: '2514250/dev-masih', // example: '1/jeff-atwood'
     //discord: '',
     //telegram: '',
     //website: 'https://www.arifszn.com',
