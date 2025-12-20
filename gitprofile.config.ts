@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Masih Akbari', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Masih Akbari', description: 'Software Development Team Lead @ Filmnet.ir', imageURL: '' },
   social: {
     linkedin: 'masih-akbari-dev',
     //x: 'arif_szn',
@@ -76,38 +76,51 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Technology Leadership',
+    '.NET',
+    'ASP.NET',
+    'C#',
+    'SQL',
+    'RabbitMQ',
+    'Elasticsearch',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Redis',
+    'MongoDB',
+    'GoLang',
+    'C++',
+    'Lua',
+    'Python',
+    'KYC Verification',
+    'Customer Onboarding',
+    'PKCS',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Filmnet.ir',
+      position: 'Software Development Team Lead',
+      from: 'Jun 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://filmnet.ir',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Metapolitan',
+      position: 'Software Developer (Remote)',
+      from: 'Sep 2024',
+      to: 'Present',
+      companyLink: 'https://metapolitan.io',
+    },
+    {
+      company: 'DastyarTech',
+      position: 'Chief Technology Officer (Remote)',
+      from: 'May 2024',
+      to: 'Present',
+      companyLink: 'https://dastyartech.org',
     },
   ],
   certifications: [
@@ -120,15 +133,15 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Kharazmi University',
+      degree: 'Master\'s degree',
+      from: '2014',
+      to: '2017',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
+      institution: 'Kharazmi University',
+      degree: 'Bachelor\'s degree',
+      from: '2011',
       to: '2014',
     },
   ],
@@ -155,7 +168,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -164,15 +177,15 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
