@@ -11,7 +11,7 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/filmnet_logo.jpg",
     link: "https://filmnet.ir",
     datetime: "Jun 2023 - Present · On-site",
-    description: "Filmnet is a high-traffic VOD platform, delivering hundreds of video titles across diverse categories to millions of users. Led backend development using the full C#/.NET stack, architected around a microservices model with multi-node deployments, REST and gRPC communication, and hybrid VM/containerized infrastructure. Implemented robust CI/CD pipelines, ensuring seamless integration, automated testing, and reliable delivery across environments. Optimized system performance under heavy load, leveraging MSSQL, Elasticsearch, RabbitMQ, and multilevel caching strategies using in-memory and Redis clusters. Promoted to Development Team Lead in March 2024, overseeing backend architecture decisions, mentoring developers, and driving technical excellence across the team.",
+    description: "Architected Filmnet’s VOD backend with C#/.NET microservices, hybrid VM/container infrastructure, and CI/CD pipelines. Optimized high‑traffic performance for millions of users using MSSQL, Elasticsearch, RabbitMQ, and multilevel caching with in‑memory and Redis clusters.",
     categories: [".NET", "ASP.NET Web API", "C#", "Microsoft SQL Server", "RabbitMQ", "Elasticsearch", "Git", "MongoDB", "Nginx", "Sentry", "GoLang"],
   },
   {
@@ -19,7 +19,7 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/metapolitan_logo.jpg",
     link: "https://metapolitan.io",
     datetime: "Sep 2024 - Present · Remote",
-    description: "Built Vero Compliance, a modular identity verification platform for KYC/KYB onboarding, used by fintechs like Assetera and Tokenise.io. Designed scalable backend architecture, a secure admin panel, and integrated multiple providers (Sumsub, SignD, Sardine.ai) via pluggable adapters. Automated onboarding and risk scoring to streamline compliance and reduce manual review.",
+    description: "Developed Vero Compliance, a modular KYC/KYB platform for fintechs including Assetera and Tokenise.io. Engineered scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and minimize manual review.",
     categories: ["KYC Verification", "Customer Onboarding", "ASP.NET", "Nuget"],
   },
   {
@@ -27,7 +27,7 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/dastyartech_logo.jpg",
     link: "https://dastyartech.org",
     datetime: "May 2024 - Present · Remote",
-    description: "DastyarTech is an AI-powered automation platform that helps businesses and individuals streamline tasks. It unifies calls, SMS, and chat in one place, offering a simple user experience. With Assistant Chat, companies can manage customer interactions across websites, apps, and social media using human operators or AI. The platform supports advanced flow customization, 24/7 AI responses, operator management, API/database integration, and tailored AI models for business-specific needs.",
+    description: "Built DastyarTech, an AI automation platform unifying calls, SMS, and chat. Delivered Assistant Chat for customer interactions across web, apps, and social media with human/AI operators. Enabled flow customization, 24/7 AI responses, operator management, API/database integration, and tailored AI models.",
     categories: ["Technology Leadership", "Artificial Intelligence (AI)", "ASP.NET", "Social Media"],
   }
 ];
@@ -115,7 +115,7 @@ const BlogCard = ({
 
             try {
               if (googleAnalyticsId) {
-                ga.event('Click Blog Post', {
+                ga.event('Click Experience', {
                   post: article.title,
                 });
               }
@@ -201,12 +201,12 @@ const BlogCard = ({
                 <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
                   {loading
                     ? skeleton({ widthCls: 'w-28', heightCls: 'h-8' })
-                    : 'My Articles'}
+                    : 'Current Experience'}
                 </h3>
                 <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                   {loading
                     ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                    : 'Recent posts'}
+                    : ''}
                 </div>
               </div>
             </div>
