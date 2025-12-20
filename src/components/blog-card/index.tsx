@@ -7,6 +7,33 @@ import { SanitizedBlog } from '../../interfaces/sanitized-config';
 import { ga, skeleton } from '../../utils';
 import { Article } from '../../interfaces/article';
 
+const staticArticles: Article[] = [
+  {
+    title: "Understanding React Hooks",
+    thumbnail: "https://via.placeholder.com/150",
+    link: "https://example.com/react-hooks",
+    publishedAt: new Date("2024-11-01"),
+    description: "A beginner-friendly guide to React Hooks and how they simplify state management.",
+    categories: ["React", "JavaScript", "Frontend"],
+  },
+  {
+    title: "Concurrency in Go",
+    thumbnail: "https://via.placeholder.com/150",
+    link: "https://example.com/go-concurrency",
+    publishedAt: new Date("2024-10-15"),
+    description: "Exploring goroutines, channels, and best practices for safe concurrent programming in Go.",
+    categories: ["Go", "Concurrency", "Backend"],
+  },
+  {
+    title: "SQL Optimization Tips",
+    thumbnail: "https://via.placeholder.com/150",
+    link: "https://example.com/sql-optimization",
+    publishedAt: new Date("2024-09-20"),
+    description: "Learn how to optimize SQL queries for performance in large-scale applications.",
+    categories: ["SQL", "Database", "Performance"],
+  },
+];
+
 const BlogCard = ({
   loading,
   blog,
@@ -17,21 +44,8 @@ const BlogCard = ({
   googleAnalyticsId?: string;
 }) => {
   const [articles, setArticles] = useState<Article[]>([]);
-
   useEffect(() => {
-    if (blog.source === 'medium') {
-      getMediumPost({
-        user: blog.username,
-      }).then((res) => {
-        setArticles(res);
-      });
-    } else if (blog.source === 'dev') {
-      getDevPost({
-        user: blog.username,
-      }).then((res) => {
-        setArticles(res);
-      });
-    }
+    setArticles(staticArticles);
   }, [blog.source, blog.username]);
 
   const renderSkeleton = () => {
