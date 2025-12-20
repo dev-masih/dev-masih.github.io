@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import LazyImage from '../lazy-image';
-import { PiNewspaper } from 'react-icons/pi';
+import { PiBriefcase } from 'react-icons/pi';
 import { SanitizedBlog } from '../../interfaces/sanitized-config';
 import { ga, skeleton } from '../../utils';
 import { Article } from '../../interfaces/article';
@@ -172,7 +172,7 @@ const BlogCard = ({
       ))
     ) : (
       <div className="text-center mb-6">
-        <PiNewspaper className="mx-auto h-12 w-12 opacity-30" />
+        <PiBriefcase className="mx-auto h-12 w-12 opacity-30" />
         <p className="mt-1 text-sm opacity-50 text-base-content">
           No recent post
         </p>
@@ -194,7 +194,7 @@ const BlogCard = ({
                 })
               ) : (
                 <div className="flex items-center justify-center w-12 h-12 bg-primary/10 rounded-xl">
-                  <PiNewspaper className="text-2xl" />
+                  <PiBriefcase className="text-2xl" />
                 </div>
               )}
               <div className="min-w-0 flex-1">
