@@ -2,7 +2,7 @@ export interface Article {
   title: string;
   thumbnail: string;
   link: string;
-  publishedAt: Date;
+  datetime: string;
   description: string;
   categories: string[];
 }
