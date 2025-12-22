@@ -20,7 +20,7 @@ const staticArticles: Article[] = [
     link: "https://metapolitan.io",
     datetime: "Sep 2024 - Present · Remote",
     description: "Developed Vero Compliance, a modular KYC/KYB platform for in-house services. Engineered a scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and reduce manual review.",
-    categories: ["KYC Verification", "Customer Onboarding", "ASP.NET", "Nuget"],
+    categories: ["KYC Verification", "Customer Onboarding", "Risk Scoring", "Workflow Automation", "ASP.NET", "Nuget"],
   },
   {
     title: "Chief Technology Officer @ Dastyartech",
