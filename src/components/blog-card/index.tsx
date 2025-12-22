@@ -19,7 +19,7 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/metapolitan_logo.jpg",
     link: "https://metapolitan.io",
     datetime: "Sep 2024 - Present · Remote",
-    description: "Developed Vero Compliance, a modular KYC/KYB platform for fintechs including Assetera and Tokenise.io. Engineered scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and minimize manual review.",
+    description: "Developed Vero Compliance, a modular KYC/KYB platform for in-house services. Engineered a scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and reduce manual review.",
     categories: ["KYC Verification", "Customer Onboarding", "ASP.NET", "Nuget"],
   },
   {
@@ -27,8 +27,8 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/dastyartech_logo.jpg",
     link: "https://dastyartech.org",
     datetime: "May 2024 - Present · Remote",
-    description: "Built DastyarTech, an AI automation platform unifying calls, SMS, and chat. Delivered Assistant Chat for customer interactions across web, apps, and social media with human/AI operators. Enabled flow customization, 24/7 AI responses, operator management, API/database integration, and tailored AI models.",
-    categories: ["Technology Leadership", "Artificial Intelligence (AI)", "ASP.NET", "Social Media"],
+    description: "CTO and tech lead at DastyarTech, a newly launched startup developing an AI automation platform unifying chat and ticketing across web, apps, and social media with customizable flows, 24/7 AI responses, and operator management.",
+    categories: ["Technology Leadership", "Artificial Intelligence (AI)", "ASP.NET", "Social Media Integration", "Chatbot", "Workflow Orchestration"],
   }
 ];
 
