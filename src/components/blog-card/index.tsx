@@ -11,8 +11,8 @@ const staticArticles: Article[] = [
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/filmnet_logo.jpg",
     link: "https://filmnet.ir",
     datetime: "Jun 2023 - Present · On-site",
-    description: "Architected Filmnet's VOD backend with C#/.NET microservices, hybrid VM/container infrastructure, and CI/CD pipelines. Optimized high-traffic performance for millions of users using MSSQL, Elasticsearch, RabbitMQ, and multilevel caching with in-memory and Redis clusters.",
-    categories: [".NET", "ASP.NET Web API", "C#", "Microsoft SQL Server", "RabbitMQ", "Elasticsearch", "Git", "MongoDB", "Nginx", "Sentry", "GoLang"],
+    description: "Architected Filmnet's VOD backend with C#/.NET microservices, hybrid VM/container infrastructure, and CI/CD pipelines. Optimized high-traffic performance for millions of users using MSSQL, Elasticsearch, RabbitMQ, and caching with in-memory and Redis clusters.",
+    categories: ["VOD", ".NET", "ASP.NET Web API", "C#", "Microsoft SQL Server", "RabbitMQ", "Elasticsearch", "Git", "MongoDB", "Nginx", "Sentry", "GoLang"],
   },
   {
     title: "Senior Backend Developer @ Metapolitan - The Blockchain Capital",
@@ -20,7 +20,7 @@ const staticArticles: Article[] = [
     link: "https://metapolitan.io",
     datetime: "Sep 2024 - Present · Remote",
     description: "Developed Vero Compliance, a modular KYC/KYB platform for in-house services. Engineered a scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and reduce manual review.",
-    categories: ["KYC Verification", "Customer Onboarding", "Risk Scoring", "Workflow Automation", "ASP.NET", "Nuget"],
+    categories: ["KYC Verification", "Customer Onboarding", "Risk Scoring", "Workflow Automation"],
   },
   {
     title: "Chief Technology Officer @ Dastyartech",
