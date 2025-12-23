@@ -51,7 +51,7 @@ const CONFIG = {
       ],
     },
   },
-  seo: { title: 'Portfolio of Masih Akbari', description: 'Software Development Team Lead', imageURL: 'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/avatar-circle.png' },
+  seo: { title: 'Portfolio of Masih Akbari', description: 'Software Development Team Lead', imageURL: 'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/avatar.jpg' },
   social: {
     linkedin: 'masih-akbari-dev',
     //x: 'arif_szn',
