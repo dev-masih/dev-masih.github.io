@@ -18,7 +18,7 @@ const staticArticles: Article[] = [
     title: "Senior Backend Developer @ Metapolitan - The Blockchain Capital",
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/metapolitan_logo.jpg",
     link: "https://metapolitan.io",
-    datetime: "Sep 2024 - Present · Remote",
+    datetime: "Sep 2024 - Present · Remote Part-time",
     description: "Developed Vero Compliance, a modular KYC/KYB platform for in-house services. Engineered a scalable backend, secure admin panel, and pluggable provider adapters to automate onboarding, enable risk scoring, and reduce manual review.",
     categories: ["KYC Verification", "Customer Onboarding", "Risk Scoring", "Workflow Automation"],
   },
@@ -26,7 +26,7 @@ const staticArticles: Article[] = [
     title: "Chief Technology Officer @ Dastyartech",
     thumbnail: "https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/dastyartech_logo.jpg",
     link: "https://dastyartech.org",
-    datetime: "May 2024 - Present · Remote",
+    datetime: "May 2024 - Present · Remote Consultant/Part-time",
     description: "CTO and tech lead at DastyarTech, a newly launched startup developing an AI automation platform unifying chat and ticketing across web, apps, and social media with customizable flows, 24/7 AI responses, and operator management.",
     categories: ["Technology Leadership", "Artificial Intelligence (AI)", "ASP.NET", "Social Media Integration", "Chatbot", "Workflow Orchestration"],
   }
