@@ -76,7 +76,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/Masih-Akbari-Resume-20260212.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/dev-masih/my-media-bin/refs/heads/master/dev-masih.github.io/Masih-Akbari-Resume-20260306.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Technology Leadership',
@@ -99,6 +99,7 @@ const CONFIG = {
     'KYC Verification',
     'Customer Onboarding',
     'PKCS',
+    'Game Development',
   ],
   experiences: [
     {
